@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+
+<FlowPane vgap="10" hgap="10" prefHeight="500.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment4.FXMLassignment4Controller">
+    <children>
+        <Label text="Enter Start Value: " />
+        <TextField prefWidth="200.0" fx:id="txtstart"  />
+        <Label text="Enter End Value: " />
+        <TextField prefWidth="200.0" fx:id="txtend" />
+        <TextArea fx:id="tarea" prefColumnCount="25" prefRowCount="15" />
+        <Button text="DISPLAY" fx:id="btndisplay" onAction="#display" />
+        <Button text="CLEAR" fx:id="btnclear" onAction="#clear" />
+        <Button text="EXIT" fx:id="btnexit" onAction="#exit" />
+    </children>
+</FlowPane>

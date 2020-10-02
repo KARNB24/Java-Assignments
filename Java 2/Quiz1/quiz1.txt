@@ -1,0 +1,3 @@
+JavaProg,ObjectOriented,50.5,3
+VB.net,EventDriven,40.0,3
+CProg,Procedural,35.5,10

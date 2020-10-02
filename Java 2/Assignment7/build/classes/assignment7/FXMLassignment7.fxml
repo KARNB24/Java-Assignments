@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="868.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="assignment7.FXMLassignment7Controller">
+   <children>
+      <Label layoutX="33.0" layoutY="28.0" text="Book Name" />
+      <Label layoutX="33.0" layoutY="72.0" text="Author Name" />
+      <Label layoutX="34.0" layoutY="112.0" text="Price of Book" />
+      <Label layoutX="26.0" layoutY="160.0" text="Number of books in stock" />
+      <TextField fx:id="txtbname" layoutX="183.0" layoutY="24.0" />
+      <TextField fx:id="txtaname" layoutX="183.0" layoutY="68.0" />
+      <TextField fx:id="txtprice" layoutX="183.0" layoutY="108.0" />
+      <TextField fx:id="txtquantity" layoutX="186.0" layoutY="156.0" />
+      <Button fx:id="btnadd" layoutX="52.0" layoutY="228.0" mnemonicParsing="false" onAction="#add" text="ADD" />
+      <Button fx:id="btnsave" layoutX="134.0" layoutY="228.0" mnemonicParsing="false" onAction="#save" text="SAVE" />
+      <Button fx:id="btnexit" layoutX="231.0" layoutY="228.0" mnemonicParsing="false" onAction="#exit" text="EXIT" />
+      <Button fx:id="btnwrite" layoutX="321.0" layoutY="228.0" mnemonicParsing="false" onAction="#write" text="WRITE" />
+      <Button fx:id="btnnext" layoutX="52.0" layoutY="296.0" mnemonicParsing="false" onAction="#next" text="NEXT" />
+      <Button fx:id="btnprevious" layoutX="134.0" layoutY="296.0" mnemonicParsing="false" onAction="#previous" text="PREVIOUS" />
+      <Button fx:id="btnedit" layoutX="231.0" layoutY="296.0" mnemonicParsing="false" onAction="#edit" text="EDIT" />
+      <Button fx:id="btndisplay" layoutX="321.0" layoutY="296.0" mnemonicParsing="false" onAction="#display" text="DISPLAY" />
+      <Label layoutX="408.0" layoutY="28.0" text="Enter Book name to search" />
+      <TextField fx:id="txtbsearch" layoutX="574.0" layoutY="24.0" prefHeight="26.0" prefWidth="214.0" />
+      <TextArea fx:id="tarea" layoutX="386.0" layoutY="71.0" prefHeight="258.0" prefWidth="472.0" />
+      <Button fx:id="btnsearch" layoutX="802.0" layoutY="25.0" mnemonicParsing="false" onAction="#search" text="SEARCH" />
+   </children>
+</AnchorPane>
